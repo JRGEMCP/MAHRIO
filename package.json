@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/JRGEMCP/mahrio/issues"
   },
-  "homepage": "https://github.com/JRGEMCP/mahrio#readme"
+  "homepage": "https://github.com/JRGEMCP/mahrio#readme",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "ejs": "2.4.2",
+    "good": "6.3.0",
+    "good-console": "5.3.1",
+    "hapi": "8.8.1",
+    "mongoose": "^4.6.4"
+  }
 }

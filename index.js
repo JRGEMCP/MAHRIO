@@ -1,22 +1,18 @@
-var Path = require('path'),
-  rootPath = Path.normalize(__dirname + '/../../');
-
-'use strict';
-
 const Hapi = require('hapi');
-const Path = require('path');
 const GoodConsole = require('good-console');
 const Good = require('good');
 const EJS = require('ejs');
 const Mongoose = require('mongoose');
 
-function setup( env ){
-  console.log('got setup');
+var Path = require('path');
+var rootPath = '';
 
-  // Define default parameters and allow extending
+function setup( env, __dir ){
+  rootPath = Path.normalize(__dir );
+
   var environment =  {
-    port: 8080,
-    url: 'localhost',
+    port: 6085,
+    url: '127.0.0.1',
     mongo: 'http://localhost:12700'
   };
 
@@ -30,9 +26,7 @@ function setup( env ){
 
   return environment;
 }
-function server( config ){
-  console.log('got server');
-
+var servidor = function( config ){
   const server = new Hapi.Server();
 
   var serverConfig = {
@@ -82,7 +76,6 @@ function server( config ){
   return server;
 }
 function database( config ){
-  console.log('got database');
 
   Mongoose.connect(config.mongo);
 
@@ -97,9 +90,9 @@ function database( config ){
   });
 }
 
-module.exports = function( env ) {
-  var config = setup( env );
-  var server = server( config );
+module.exports = function( env, rootPath ) {
+  var config = setup( env, rootPath );
+  var server = servidor( config );
   database( config );
 
   return server;
