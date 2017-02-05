@@ -88,6 +88,19 @@ function database( config ){
   db.once('open', function () {
     console.log('db connection opened');
   });
+  db.on('connecting', function() {
+    console.log('connecting to MongoDB...');
+  });
+  db.on('connected', function() {
+    console.log('MongoDB connected!');
+  });
+  db.on('reconnected', function () {
+    console.log('MongoDB reconnected!');
+  });
+  db.on('disconnected', function() {
+    console.log('MongoDB disconnected!');
+    mongoose.connect(dbURI, {server:{auto_reconnect:true}});
+  });
 }
 
 module.exports = function( env, rootPath ) {
