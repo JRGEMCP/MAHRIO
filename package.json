@@ -17,12 +17,16 @@
   },
   "homepage": "https://github.com/JRGEMCP/mahrio#readme",
   "dependencies": {
-    "bluebird": "^3.4.6",
+    "bluebird": "3.4.6",
     "ejs": "2.4.2",
     "good": "6.3.0",
     "good-console": "5.3.1",
-    "hapi": "8.8.1",
-    "lodash": "^4.17.4",
-    "mongoose": "^4.6.4"
+    "hapi": "16.1.0",
+    "hapi-auth-bearer-token": "4.3.1",
+    "hapi-auth-cookie": "6.1.1",
+    "inert": "4.1.0",
+    "lodash": "4.17.4",
+    "mongoose": "4.8.3",
+    "vision": "4.1.1"
   }
 }
