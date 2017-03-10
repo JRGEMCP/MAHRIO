@@ -1,7 +1,7 @@
 # MAHRIO
 
-mahrio-core
+mahrio is an npm module, for more please visit http://mahr.io 
 
-# Installation
+## Installation
 
 `npm i mahrio`
