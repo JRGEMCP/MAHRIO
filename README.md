@@ -2,7 +2,7 @@
 
 mahrio is an npm module, for more please visit http://mahr.io 
 
-[![Build Status](https://travis-ci.org/JRGEMCP/MAHRIO.svg?branch=master)](https://travis-ci.org/JRGEMCP/MAHRIO)
+Development version: **1.0.1** [![Build Status](https://travis-ci.org/JRGEMCP/MAHRIO.svg?branch=master)](https://travis-ci.org/JRGEMCP/MAHRIO)
 
 ## Installation
 
