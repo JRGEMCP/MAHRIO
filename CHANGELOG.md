@@ -1,3 +1,6 @@
+# 1.3.0
+* Added mailgun support
+
 # 1.2.0
 * Adds github configuration and registers bell
 * Adds configurable option for pages
