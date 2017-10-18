@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/JRGEMCP/mahrio#readme",
   "dependencies": {
+    "bell": "^8.8.0",
     "bluebird": "3.4.6",
     "ejs": "2.4.2",
     "good": "6.3.0",
