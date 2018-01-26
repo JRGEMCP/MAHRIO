@@ -30,7 +30,6 @@
     "lodash": "4.17.4",
     "mailgun-js": "^0.13.1",
     "mongoose": "4.8.3",
-    "catbox-mongodb": "4.0.0",
     "vision": "4.1.1"
   },
   "devDependencies": {
