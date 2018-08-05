@@ -21,19 +21,19 @@
     "bell": "^8.8.0",
     "bluebird": "3.4.6",
     "ejs": "2.5.5",
-    "good": "6.3.0",
-    "good-console": "5.3.1",
-    "hapi": "16.1.0",
+    "good": "^8.1.1",
+    "good-console": "^7.1.0",
+    "hapi": "^17.5.3",
     "hapi-auth-bearer-token": "4.3.1",
-    "hapi-auth-cookie": "6.1.1",
+    "hapi-auth-cookie": "^9.0.0",
     "inert": "4.1.0",
     "lodash": "^4.17.10",
     "mailgun-js": "^0.20.0",
-    "mongoose": "4.8.3",
+    "mongoose": "^5.2.5",
     "vision": "4.1.1"
   },
   "devDependencies": {
     "chai": "^4.1.0",
-    "mocha": "^3.5.0"
+    "mocha": "^5.2.0"
   }
 }
