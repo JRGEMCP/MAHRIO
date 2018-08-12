@@ -27,8 +27,8 @@
     "hapi-auth-bearer-token": "4.3.1",
     "hapi-auth-cookie": "6.1.1",
     "inert": "4.1.0",
-    "lodash": "^4.17.10",
-    "mailgun-js": "^0.20.0",
+    "lodash": "4.17.10",
+    "mailgun-js": "0.20.0",
     "mongoose": "4.8.3",
     "vision": "4.1.1"
   },
