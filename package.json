@@ -23,6 +23,7 @@
     "ejs": "2.5.5",
     "good": "7.3.0",
     "good-console": "7.1.0",
+    "good-squeeze": "^5.1.0",
     "hapi": "16.6.2",
     "hapi-auth-bearer-token": "4.3.1",
     "hapi-auth-cookie": "7.1.0",
