@@ -32,7 +32,6 @@
   },
   "devDependencies": {
     "chai": "^4.1.0",
-    "inject-then": "^2.0.9",
     "mocha": "^5.2.0"
   }
 }
