@@ -1,3 +1,6 @@
+# 2.0.0
+* Upgraded HapiJS to v18.x
+
 # 1.3.0
 * Added mailgun support
 
