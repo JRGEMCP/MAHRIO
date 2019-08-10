@@ -7,6 +7,7 @@ let mahrio = require('../lib/index.js');
 describe('Mahrio', () => {
   it('should have a runServer function that returns a promise', () => {
     return mahrio.runServer( process.env, __dirname, function (server) {
+
       server.route({
         method: 'GET',
         path: '/{param*}',
