@@ -27,7 +27,7 @@
     "@hapi/vision": "5.5.2",
     "ejs": "2.6.2",
     "hapi-auth-bearer-token": "6.2.1",
-    "lodash": "4.17.15",
+    "lodash": "4.17.19",
     "mailgun-js": "^0.22.0",
     "mongoose": "5.7.5"
   },
